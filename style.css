@@ -1,0 +1,64 @@
+h1{
+    color: #ffffff;
+    text-align: center; 
+}
+p{
+    color: #5500ff;
+    text-align: center; 
+}
+li{
+    color: #099000;
+    font-style: oblique;
+}
+
+hr{
+    color: 0;
+}
+.header{
+    background-color: #505050;
+    text-align: center;
+}
+.header *{
+    padding: 20px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.item{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+body{
+    margin: 0px;
+}
+a:link{
+    color: white
+}
+a:visited{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.item:hover{
+    transform: scale(1.2);
+}
+.item img{
+    margin: 30px;
+}
+.item p{
+    position: absolute;
+    top: 70%;
+    right: 50%
+}
+.item li{
+    flex-wrap: wrap;
+}
+
+
+
